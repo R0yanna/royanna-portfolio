@@ -21,22 +21,71 @@ min-height: 453px
   font-style: normal;
 }
 
-.prompt-medium {
+.prompt-regular {
   font-family: "Prompt", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.encode-sans-expanded-semibold {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 600;
   font-style: normal;
 }
 
 
+.instrument-sans-font {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 h1{
     font-family: Calistoga;
-    font-size: clamp(40px, 3vw, 58px);
+    font-size: clamp(40px, 2vw, 58px);
 }
 
 h2{
     font-family: Alfa Slab One;
     font-weight: clamp(20px, 2vw, 40px);
 }
+
+h5{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: clamp(24px, 2vw, 30px);
+
+}
+
+h6{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p {
+    font-family: Prompt;
+}
+
+.questioncontact p{
+    font-family: "Encode Sans Expanded";
+    font-size: clamp(16px, 2vw, 21px);
+}
+
+.phone p{
+    font-family: prompt;
+    font-size: clamp(16px, 2vw, 24px);
+}
+
+.email p{
+    font-family: prompt;
+    font-size: clamp(16px, 2vw, 24px);
+}
+
 
 .navbar-brand {
     font-family: Calistoga;
@@ -52,7 +101,7 @@ h2{
     margin-top: -8px;
 }
 
-.container-fluid {
+.navbarcolor {
     background-color: #efadce;
     margin-bottom: -8px;
 }
@@ -66,12 +115,11 @@ h2{
 }
 
 .hero-text {
-    width: 887px;
-    margin: 0 auto;
+    max-width: 887px;
+    min-width: 360px;
     padding: 5px;
     padding-top: 50px;
     margin-right: 20%;
-    font-size: clamp(21px, 2vw, 246px);
 }
 
 .selfie {
@@ -83,3 +131,189 @@ h2{
     margin-top: 10px;
     margin-left: 10px;
 }
+
+.btn {
+    background-color: #801f4f;
+    border-color:#801f4f;
+    font-family: "prompt";
+    border-width: 2px;
+    border-radius: 16px;
+    padding: 10px 16px;
+}
+
+.btn:hover {
+    background-color: white;
+    border-color: white;
+    color: #801f4f;
+    border-color:#801F4F;
+}
+
+.form-label {
+    font-family: "Encode Sans Expanded";
+    font-size: clamp(16px, 2vw, 21px);
+    font-weight: 600;
+}
+
+.form-control {
+    border-color:#801F4F;
+    border-width: 2px;
+}
+
+.hero {
+    background-color: white;
+}
+
+section {
+    background-color: #FFEBF5;
+}
+
+.footer {
+    background-color: #efadce;
+}
+
+.submit {
+    width: clamp(151px, 2vw, 248px);
+}
+
+.hero-text h1 {
+    font-size: clamp(40px, 7vw, 58px);
+}
+
+.email-info{
+display: flex;
+align-items: center;
+gap: 24px;
+
+}
+
+.phone-info{
+display: flex;
+align-items: center;
+gap: 24px;
+}
+
+svg{
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    min-height: 42px;
+}
+
+.card-btn{
+    width: 100%;
+}
+
+.card-body{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card-body h6{
+    margin-bottom: 8px;
+}
+
+.card-body h5{
+    margin-bottom: 8px;
+}
+
+.card-thumbnail{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   padding: 8px;
+}
+
+
+.projects-header{
+    padding-bottom: 30px;
+}
+
+
+.royanna-zoo{
+    width: 100%;
+    max-width: 727px;
+    object-fit: cover;
+    vertical-align: middle;
+    padding-top: 8px;
+}
+
+.royanna-restaurant{
+    width: 100%;
+    max-width: 219px;
+    height: 100%;
+    max-height: 140px;
+    object-position: 50% 20%;
+    object-fit: cover;
+   vertical-align: middle;
+   padding-bottom: 16px;
+   padding-top: 8px;
+}
+
+
+.who-am-i-caption{
+    padding-bottom: 48px;
+}
+
+.who-i-am{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:left;
+    padding-top: 22px;
+
+}
+
+.who-am-i-right-content{
+    flex: 2;
+    align-content: bottom;
+    margin-left: 10px;
+}
+
+.bold-name{
+    font-weight:500;
+    font-size: clamp(25px, 2vw, 40px);
+}
+
+/* Case Study 1 */
+
+.encode-sans-expanded-bold {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3{
+    color: white;
+    font-size: clamp(24px, 3vw, 64px);
+}
+
+h4{
+    font-family: Afacad;
+    font-size: clamp(15px, 4vw, 32px);
+}
+
+.reefguardians-title{
+    background-color:#ab296a;
+    height: 150px;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    min-height: 145px;
+}
+
+/* .project-details-section-header{
+    background-color: white;
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+} */
+
+/* .details-section-title{
+    background: white;
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+} */
+
