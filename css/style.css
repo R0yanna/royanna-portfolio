@@ -1,4 +1,4 @@
-.hero{
+.hero {
     background-image: url("../images/hero-section-image.png");
     background-size: cover;
     min-height: 665px;
@@ -6,54 +6,55 @@
 
 @media (max-width: 768px) {
     .hero {
-min-height: 453px
+        min-height: 453px
     }
 }
+
 .calistoga-regular {
-  font-family: "Calistoga", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .alfa-slab-one-regular {
-  font-family: "Alfa Slab One", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .prompt-regular {
-  font-family: "Prompt", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .encode-sans-expanded-semibold {
-  font-family: "Encode Sans Expanded", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 
 .instrument-sans-font {
-  font-family: "Instrument Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-h1{
+h1 {
     font-family: Calistoga;
     font-size: clamp(40px, 2vw, 58px);
 }
 
-h2{
+h2 {
     font-family: Alfa Slab One;
     font-weight: clamp(20px, 2vw, 40px);
 }
 
-h5{
+h5 {
     font-family: "Encode Sans Expanded", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -61,7 +62,7 @@ h5{
 
 }
 
-h6{
+h6 {
     font-family: "Encode Sans Expanded", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -71,17 +72,17 @@ p {
     font-family: Prompt;
 }
 
-.questioncontact p{
+.questioncontact p {
     font-family: "Encode Sans Expanded";
     font-size: clamp(16px, 2vw, 21px);
 }
 
-.phone p{
+.phone p {
     font-family: prompt;
     font-size: clamp(16px, 2vw, 24px);
 }
 
-.email p{
+.email p {
     font-family: prompt;
     font-size: clamp(16px, 2vw, 24px);
 }
@@ -134,7 +135,7 @@ p {
 
 .btn {
     background-color: #801f4f;
-    border-color:#801f4f;
+    border-color: #801f4f;
     font-family: "prompt";
     border-width: 2px;
     border-radius: 16px;
@@ -145,7 +146,7 @@ p {
     background-color: white;
     border-color: white;
     color: #801f4f;
-    border-color:#801F4F;
+    border-color: #801F4F;
 }
 
 .form-label {
@@ -155,7 +156,7 @@ p {
 }
 
 .form-control {
-    border-color:#801F4F;
+    border-color: #801F4F;
     border-width: 2px;
 }
 
@@ -179,57 +180,57 @@ section {
     font-size: clamp(40px, 7vw, 58px);
 }
 
-.email-info{
-display: flex;
-align-items: center;
-gap: 24px;
+.email-info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 
 }
 
-.phone-info{
-display: flex;
-align-items: center;
-gap: 24px;
+.phone-info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
-svg{
+svg {
     width: 42px;
     height: 42px;
     min-width: 42px;
     min-height: 42px;
 }
 
-.card-btn{
+.card-btn {
     width: 100%;
 }
 
-.card-body{
+.card-body {
     margin-left: 15px;
     margin-right: 15px;
 }
 
-.card-body h6{
+.card-body h6 {
     margin-bottom: 8px;
 }
 
-.card-body h5{
+.card-body h5 {
     margin-bottom: 8px;
 }
 
-.card-thumbnail{
-   width: 100%;
-   height: 100%;
-   object-fit: contain;
-   padding: 8px;
+.card-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 8px;
 }
 
 
-.projects-header{
+.projects-header {
     padding-bottom: 30px;
 }
 
 
-.royanna-zoo{
+.royanna-zoo {
     width: 100%;
     max-width: 727px;
     object-fit: cover;
@@ -237,69 +238,72 @@ svg{
     padding-top: 8px;
 }
 
-.royanna-restaurant{
+.royanna-restaurant {
     width: 100%;
     max-width: 219px;
     height: 100%;
     max-height: 140px;
     object-position: 50% 20%;
     object-fit: cover;
-   vertical-align: middle;
-   padding-bottom: 16px;
-   padding-top: 8px;
+    vertical-align: middle;
+    padding-bottom: 16px;
+    padding-top: 8px;
 }
 
 
-.who-am-i-caption{
+.who-am-i-caption {
     padding-bottom: 48px;
 }
 
-.who-i-am{
+.who-i-am {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content:left;
+    justify-content: left;
     padding-top: 22px;
 
 }
 
-.who-am-i-right-content{
+.who-am-i-right-content {
     flex: 2;
     align-content: bottom;
     margin-left: 10px;
 }
 
-.bold-name{
-    font-weight:500;
+.bold-name {
+    font-weight: 500;
     font-size: clamp(25px, 2vw, 40px);
 }
 
 /* Case Study 1 */
 
 .encode-sans-expanded-bold {
-  font-family: "Encode Sans Expanded", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
-h3{
+h3 {
     color: white;
     font-size: clamp(24px, 3vw, 64px);
 }
 
-h4{
+h4 {
     font-family: Afacad;
     font-size: clamp(25px, 4vw, 32px);
 }
 
-.reefguardians-title{
-    background-color:#ab296a;
+.reefguardians-title {
+    background-color: #ab296a;
     height: 150px;
     justify-content: center;
     display: grid;
     place-items: center;
     min-height: 145px;
 }
+
+
+
 
 /* .project-details-section-header{
     background-color: white;
@@ -317,3 +321,31 @@ h4{
     margin-left: -50vw;
 } */
 
+.reefguardians-background-info {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.reefguardians-results {
+    padding-bottom: 22px;
+}
+
+
+.reefguardians-process-section {
+    padding-bottom: 22px;
+}
+
+.image-description {
+    font-size: clamp(10px, 1.5vw, 16px);
+}
+
+.results-grid{
+    display: grid;
+    gap: 40px;
+
+}
+
+.sketches-grid{
+    display: grid;
+    gap: 40px;
+}
