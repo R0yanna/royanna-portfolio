@@ -286,6 +286,7 @@ svg {
 h3 {
     color: white;
     font-size: clamp(24px, 3vw, 64px);
+    padding: 10px;
 }
 
 h4 {
