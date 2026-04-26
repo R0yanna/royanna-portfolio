@@ -70,6 +70,13 @@ h6 {
 
 p {
     font-family: Prompt;
+    width: 35em;
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .questioncontact p {
@@ -113,6 +120,171 @@ p {
 
 .nav-item {
     padding: 4px;
+}
+
+/* Grid */
+.row {
+    --gridgap: 2em;
+}
+
+.row2 {
+    --gridgap2: 0em;
+}
+
+.row>* {
+    margin-top: var(--gridgap);
+    margin-bottom: var(--gridgap);
+}
+
+.row2+.row2 {
+    margin-top: var(--gridgap2);
+    margin-bottom: var(--gridgap2);
+}
+
+@media (min-width: 768px) {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: var(--gridgap);
+        /* place-items: center; */
+    }
+
+    /* COMMONLY USED SEMANTIC COLUMN WIDTHS */
+    .one-half {
+        grid-column: auto / span 6;
+    }
+
+    .one-third {
+        grid-column: auto / span 4;
+    }
+
+    .two-thirds {
+        grid-column: auto / span 8;
+    }
+
+    .one-fourth {
+        grid-column: auto / span 3;
+    }
+
+    .three-fourths {
+        grid-column: auto / span 9;
+    }
+
+    /* 12 COLUMN CLASSES */
+    .col-1 {
+        grid-column: auto / span 1;
+    }
+
+    .col-2 {
+        grid-column: auto / span 2;
+    }
+
+    .col-3 {
+        grid-column: auto / span 3;
+    }
+
+    .col-4 {
+        grid-column: auto / span 4;
+    }
+
+    .col-5 {
+        grid-column: auto / span 5;
+    }
+
+    .col-6 {
+        grid-column: auto / span 6;
+    }
+
+    .col-7 {
+        grid-column: auto / span 7;
+    }
+
+    .col-8 {
+        grid-column: auto / span 8;
+    }
+
+    .col-9 {
+        grid-column: auto / span 9;
+    }
+
+    .col-10 {
+        grid-column: auto / span 10;
+    }
+
+    .col-11 {
+        grid-column: auto / span 11;
+    }
+
+    .col-12 {
+        grid-column: auto / span 12;
+    }
+
+    /* COMMONLY CENTERED COLUMNS */
+    .one-half.centered {
+        grid-column: 4 / span 6;
+    }
+
+    .one-third.centered {
+        grid-column: 5 / span 4;
+    }
+
+    .two-thirds.centered {
+        grid-column: 3 / span 8;
+    }
+
+    /* PUSHES */
+    .push-1 {
+        grid-column-start: 2;
+    }
+
+    .push-2 {
+        grid-column-start: 3;
+    }
+
+    .push-3 {
+        grid-column-start: 4;
+    }
+
+    .push-4 {
+        grid-column-start: 5;
+    }
+
+    .push-5 {
+        grid-column-start: 6;
+    }
+
+    .push-6 {
+        grid-column-start: 7;
+    }
+
+    .push-7 {
+        grid-column-start: 8;
+    }
+
+    .push-8 {
+        grid-column-start: 9;
+    }
+
+    .push-9 {
+        grid-column-start: 10;
+    }
+
+    .push-10 {
+        grid-column-start: 11;
+    }
+
+    .push-11 {
+        grid-column-start: 12;
+    }
+
+    /* SWAP (REVERSE) COLUMNS - WORKS ONLY w/ 2 CHILDREN  */
+    .row.swapped>*:first-child {
+        order: 2;
+    }
+
+    .row.swapped>*:last-child {
+        order: 1;
+    }
 }
 
 .hero-text {
@@ -286,22 +458,23 @@ svg {
 h3 {
     color: white;
     font-size: clamp(24px, 3vw, 64px);
-    padding: 10px;
+
 }
 
 h4 {
     font-family: Afacad;
     font-size: clamp(15px, 4vw, 32px);
-    
+
 }
 
 .reefguardians-title {
     background-color: #ab296a;
-    height: 150px;
-    justify-content: center;
     display: grid;
+    justify-content: center;
+    align-items: center;
     place-items: center;
-    min-height: 145px;
+    padding: 2em 0;
+
 }
 
 
@@ -340,28 +513,29 @@ h4 {
     font-size: clamp(10px, 1.5vw, 16px);
 }
 
+/* 
 .results-grid {
     display: grid;
     gap: 40px;
 
-}
+} */
 
-.sketches-grid {
+/* .sketches-grid {
     display: grid;
     gap: 40px;
-}
+} */
 
 .project-details-bold-header {
     background-color: white;
-    padding: 10px;
+    padding: 1em;
     margin-top: -21px;
-    margin-bottom: 20px;
+
     /* height: clamp(44px, 4vw, 94px); */
     display: flex;
     align-items: center;
 }
 
-    /* .project-details-section-header {
+/* .project-details-section-header {
         padding: 5px;
     }
 }
@@ -380,15 +554,15 @@ h4 {
     background-color: #E47CB0;
     margin-top: -21px;
     margin-bottom: 20px;
-    padding: 0px;
+    padding: 2em;
     /* height: clamp(25px, 2vw, 65px); */
-    display: flex;
-    align-items: center;
+
+
 }
 
 /* Case Study 2 */
 
-.colgate-title{
+.colgate-title {
     background-color: #ab296a;
     height: 150px;
     justify-content: center;
@@ -397,21 +571,27 @@ h4 {
     min-height: 145px;
 }
 
-.colgate-background-info{
+.colgate-background-info {
     padding-top: 22px;
     padding-bottom: 22px;
 }
 
-.colgate-logo-image{
+.colgate-logo-image {
     display: flex;
     align-items: center;
     padding: 10px;
 }
 
-.creative-brief-caption{
+.creative-brief-caption {
     padding-top: 10px;
 }
 
-.sketches-caption{
+.sketches-caption {
     padding-top: 10px;
+}
+
+
+
+.img-fluid.m-bottom {
+    margin-bottom: 4em;
 }
