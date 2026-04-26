@@ -291,7 +291,8 @@ h3 {
 
 h4 {
     font-family: Afacad;
-    font-size: clamp(25px, 4vw, 32px);
+    font-size: clamp(15px, 4vw, 32px);
+    
 }
 
 .reefguardians-title {
@@ -302,7 +303,6 @@ h4 {
     place-items: center;
     min-height: 145px;
 }
-
 
 
 
@@ -340,13 +340,78 @@ h4 {
     font-size: clamp(10px, 1.5vw, 16px);
 }
 
-.results-grid{
+.results-grid {
     display: grid;
     gap: 40px;
 
 }
 
-.sketches-grid{
+.sketches-grid {
     display: grid;
     gap: 40px;
+}
+
+.project-details-bold-header {
+    background-color: white;
+    padding: 10px;
+    margin-top: -21px;
+    margin-bottom: 20px;
+    /* height: clamp(44px, 4vw, 94px); */
+    display: flex;
+    align-items: center;
+}
+
+    /* .project-details-section-header {
+        padding: 5px;
+    }
+}
+
+/* .project-details-bold-header {
+    height: 50px;
+    background-color: white;
+    margin-top: -21px;
+    margin-bottom: 21px;
+    display: flex;
+    align-items:center;
+    
+} */
+
+.process-section-subtitles {
+    background-color: #E47CB0;
+    margin-top: -21px;
+    margin-bottom: 20px;
+    padding: 0px;
+    /* height: clamp(25px, 2vw, 65px); */
+    display: flex;
+    align-items: center;
+}
+
+/* Case Study 2 */
+
+.colgate-title{
+    background-color: #ab296a;
+    height: 150px;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    min-height: 145px;
+}
+
+.colgate-background-info{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.colgate-logo-image{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.creative-brief-caption{
+    padding-top: 10px;
+}
+
+.sketches-caption{
+    padding-top: 10px;
 }
