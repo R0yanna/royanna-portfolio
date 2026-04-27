@@ -70,13 +70,16 @@ h6 {
 
 p {
     font-family: Prompt;
-    width: 35em;
+    /* width: 35em; */
     font-size: 1.2em;
 }
+
+
 
 img {
     max-width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 .questioncontact p {
@@ -342,6 +345,7 @@ section {
 
 .footer {
     background-color: #efadce;
+    padding-top: 2em;
 }
 
 .submit {
@@ -401,6 +405,9 @@ svg {
     padding-bottom: 30px;
 }
 
+.projects {
+    padding-bottom: 2em;
+}
 
 .royanna-zoo {
     width: 100%;
@@ -512,6 +519,7 @@ h4 {
 .image-description {
     font-size: clamp(10px, 1.5vw, 16px);
 }
+
 
 /* 
 .results-grid {
