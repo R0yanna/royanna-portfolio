@@ -44,6 +44,14 @@
         "wdth" 100;
 }
 
+.afacad-font {
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
 h1 {
     font-family: Calistoga;
     font-size: clamp(40px, 2vw, 58px);
@@ -374,6 +382,17 @@ svg {
     height: 42px;
     min-width: 42px;
     min-height: 42px;
+}
+
+.card-title {
+    font-family: Afacad;
+    font-size: clamp(25px, 8vw, 32px);
+}
+
+.card-subtitle {
+    font-family: Afacad;
+    font-size: clamp(20px, 2vw, 25px);
+    font-weight: 200;
 }
 
 .card-btn {
