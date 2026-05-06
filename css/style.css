@@ -303,6 +303,7 @@ img {
     min-width: 360px;
     padding: 5px;
     padding-top: 50px;
+    padding-bottom: 2em;
     margin-right: 20%;
 }
 
@@ -489,7 +490,7 @@ h3 {
 
 h4 {
     font-family: Afacad;
-    font-size: clamp(15px, 4vw, 32px);
+    font-size: clamp(20px, 4vw, 32px);
 
 }
 
@@ -621,4 +622,92 @@ h4 {
 
 .img-fluid.m-bottom {
     margin-bottom: 4em;
+}
+
+/* .ideas-list{
+    column-count: 2;
+    column-gap: 2em;
+} */
+
+.ideas-list {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media(min-width:600px) {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+.ideas-list {
+    font-family: inter;
+    background-color: white;
+    padding: 50px;
+}
+
+.individual-idea {
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.ideas {
+    padding-bottom: 1.5em;
+}
+
+.ideas-section {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.creative-brief-section {
+    padding-bottom: 1.5em;
+}
+
+.idea-choice {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+.sketches-content {
+    padding-bottom: 2em;
+}
+
+.colgate-results-images {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+/* .btn-center{
+    display: grid;
+    justify-content: right;
+    align-items: right;
+    padding-top: 2em;
+    padding-bottom: 2em;
+} */
+
+.bottom-button-sections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.sketches-group {
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+
+.logo-reef-design {
+    padding-bottom: 1em;
+}
+
+.finalized-logo-section {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.about-me-section {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
